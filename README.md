@@ -1,5 +1,7 @@
 # History Hero - Dotfiles Sync Daemon
-
+<p align="center">
+<img src="./assets/logo.png" alt="history hero logo" width="459" height="310"/>
+</p>
 A Python daemon application that automatically synchronizes your dotfiles with a git repository.
 
 ## Features
