@@ -1,0 +1,4 @@
+recursive-include dotfiles_sync *.py
+include README.md
+include LICENSE
+
