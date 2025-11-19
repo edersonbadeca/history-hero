@@ -84,7 +84,7 @@ dotfiles-sync start --dot-file-path ~/.dotfiles --interval-hours 1
 Logs are saved to `~/.dotfiles-sync/logs/dotfiles-sync.log`
 
 ## Requirements
-
+- A Git repository initialized in your dotfiles directory
 - Python 3.8+
 - Git
 
