@@ -1,4 +1,4 @@
-# Dotfiles Sync
+# History Hero - Dotfiles Sync Daemon
 
 A Python daemon application that automatically synchronizes your dotfiles with a git repository.
 
@@ -12,6 +12,14 @@ A Python daemon application that automatically synchronizes your dotfiles with a
 
 ## Installation
 
+### Quick Install (Curl)
+
+```bash
+curl -sSL https://raw.githubusercontent.com/edersonbadeca/history-hero/main/install.sh | bash
+```
+
+### Using pip
+
 ```bash
 pip install dotfiles-sync
 ```
@@ -19,8 +27,8 @@ pip install dotfiles-sync
 Or from source:
 
 ```bash
-git clone <repo-url>
-cd dotfiles-sync
+git clone https://github.com/edersonbadeca/history-hero.git
+cd history-hero
 pip install -e .
 ```
 
